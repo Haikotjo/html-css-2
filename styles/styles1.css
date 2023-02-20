@@ -9,19 +9,26 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
+/*grijs #899CA0 en donkergroen #1C2B32*/
 
 
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+* {
+    box-sizing: border-box;
+}
 
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /*////////////////////////
@@ -31,7 +38,12 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
-
+.head-container{
+    width: 1000px;
+    margin: 80px auto;
+    color: forestgreen;
+    background-color: blue;
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
